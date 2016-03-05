@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Confirmar enlaces</title>
+	<script>
+	function confirma(){
+		question=confirma("Bien Hecho")
+		if (question != "0") {
+			self.location="nuevap.html"
+		}
+	}
+	//Esta funcion nos muestra un texto en la pantalla, de modo que si aceptamos el texto (!=0), en 
+	</script>
+</head>
+
+<body text="#153584" bgcolor="#ffffff" link="#153584" vlink="B5B5B5"
+	onLoad="loadalert()">
+		<center><map NAME="map1"><area SHAPE=RECT COORDS="25,44,237,62" 
+			HREF="http://www.ith.mx" target="_blank"></map><img src="logo_ith.jpg" 
+			BORDER=0 USEMAP="#map1">
+		</center>
+		<center><h2>Confirmar enlaces</h2>Si pulsas sobre este enlace, realizaras un salto a otra pagina, siempre que hayas pulsado en </center><br>
+		<center><a href="nuevap.html" target="_self" onclick="confirma()"; return false>Pulsame</a></center>
+		<!--Llamamos a la funcion 'confirma' en el evento 'onclick' del enlace-->
+		<br>
+		<br>
+		<center><a href="pagina.html" target="navegador">Volver a la pagina anterior</a></center>
+</html>

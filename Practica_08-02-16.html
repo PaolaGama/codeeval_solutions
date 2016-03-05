@@ -1,0 +1,186 @@
+<html>
+<head>
+
+</head>
+
+<body>
+	<table border="5">
+		<caption>Instituto Tecnologico de Hermosillo</caption>
+			<tr>
+				<th rowspan="5">Recursos</th><th colspan="4">Facturacion</th>
+			</tr>
+		<tr>
+			<th>Tecnologicos</th><th>Cantidad de alumnos</th>
+		</tr>
+		<tr>
+			<td>Tecnologicos de Hermosillo</td><td>3800 alumnos</td>
+		</tr>
+			<tr>
+				<td>Tecnologicos de Nogales</td><td>2000 alumnos</td>
+			</tr>
+			<tr>
+				<td>Tecnologicos de Caborca</td><td>1082 alumnos</td>
+			</tr>
+	</table>
+
+
+<form action="/registradatos.php" method="post">
+			Ingrese su nombre:
+			<input type="text" name="nombre" size="20">
+			<br>
+			Ingrse su clave:
+			<input type="password" name="clave" size="12">
+			<br>
+			<input type="submit" value="enviar">
+			<input type="reset" value="borrar">
+		</form>
+
+
+<h1>BIENVENIDO A JAVASCRIPT</h1>
+<b>Mi Primer Script</b>
+<form name=prog2>
+	Base..:<input type="text" name="base"><br>
+	Altura:<input type="text" name="altura"><br>
+	Area..:<input type="text" name="area"><br>
+	<input type="button" name="calculo" value="OK">
+	<script for="calculo" event="onclick" languaje="javascript">
+	prog2.area.value=prog2.base.value*prog2.altura.value/2;
+	</script>
+</form>
+
+
+<head>
+<title>Prueba de Formulario</title>
+</head>
+<body>
+<form action="pagina1.html" method="post">
+Ingrese su nombre:
+<input type="text" name="nombre" size="30"><br>
+Seleccione los lenguajes que conoce:
+<br>
+<input type="checkbox" name="java">Java<br>
+<input type="checkbox" name="cmasmas">C++<br>
+<input type="checkbox" name="C">C<br>
+<input type="checkbox" name="Csharp">C#<br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+
+
+<head>
+<title>Prueba de Formulario Radio</title>
+</head>
+<body>
+<form action="pagina1.html" method="post">
+Ingrese su nombre:
+<input type="text" name="nombre" size="30"><br>
+Seleccione el maximo nivel de estudios que tiene:
+<br>
+<input type="radio" name="estudios" value="1">Sin Estudios<br>
+<input type="radio" name="estudios" value="2">Primaria<br>
+<input type="radio" name="estudios" value="3">Secundaria<br>
+<input type="radio" name="estudios" value="4">Preparatoria<br>
+<input type="radio" name="estudios" value="5">Licenciatura<br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+
+
+<head>
+<title>Prueba de Formulario Radio</title>
+</head>
+<body>
+<form action="pagina1.html" method="post">
+Ingrese su nombre:
+<input type="text" name="nombre" size="30"><br>
+Seleccione su pais:
+<select name="pais">
+<option value="1">Mexico</option>
+<option value="2">España</option>
+<option value="3">Argentina</option>
+<option value="4">Guatemala</option>
+<option value="5">Honduras</option>
+<option value="6">El Salvador</option>
+<option value="7">Venezuela</option>
+<option value="8">Cuba</option>
+<option value="9">Chile</option>
+</select>
+<br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+
+
+<head>
+<title>Formulario Select</title>
+</head>
+<body>
+<form action="pagina1.html" method="post">
+Seleccione uno o varios colores (Seleccione Ctrl para dejar seleccionado)
+<br>
+<select name="colores []" size="4" multiple>
+<option value="1">Rojo</option>
+<option value="2">Verde</option>
+<option value="3">Azul</option>
+<option value="4">Amarillo</option>
+<option value="5">Blanco</option>
+<option value="6">Negro</option>
+<option value="7">Naranja</option>
+<option value="8">Violeta</option>
+</select>
+<br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+
+
+<head>
+<title>Formulario Select</title>
+</head>
+<body>
+<form action="pagina1.html" method="post">
+	<input type="text" name="nombre" size="30"><br>
+Seleccione fruta o verdura:
+<select name="articulo">
+<optgroup Label="Frutas">
+	<option value="1">Naranjas</option>
+	<option value="2">Manzanas</option>
+	<option value="3">Sandias</option>
+	<option value="4">Fresas</option>
+	<option value="5">Duraznos</option>
+	<option value="6">Ciruelas</option>
+</optgroup>
+<optgroup label="Verduras">
+	<option value="7">Lechuga</option>
+	<option value="8">Tomate</option>
+	<option value="9">Cebolla</option>
+	<option value="10">Ajo</option>
+	<option value="11">Apio</option>
+</optgroup>
+</select>
+
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</form>
+</body>
+
+
+<head>
+<title>Formulario Button</title>
+</head>
+<body>
+		<form action ="pagina1.html" method="post">
+		ingrese su nombre:
+		<input type="text" name="nombre" size ="30"><br>
+		<button type="submit">enviar<img src="enviar.jpg"alt="envio"></button>
+		<button type="reset">borrar<img src="borrar.jpg"alt="borrado"></button>
+
+
+		</form>
+
+		</body>
+
+
+</body>
+</html>

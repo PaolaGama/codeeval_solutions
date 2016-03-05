@@ -1,0 +1,30 @@
+body{
+	background-color: #eeeeee; 
+}
+.resaltado{
+	color: #000000;
+	background-color: #ffff00;
+	font-style: italic;
+}
+.titulo{
+	color: orange;
+	background-color: white;
+	font-family: Comic sans ms;
+	text-align: center;
+
+	font-size: 40px;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: dotted;
+
+	border-top-color: red;
+	border-right-color: orange;
+	border-right-color: black;
+	border-left-color: purple;
+}

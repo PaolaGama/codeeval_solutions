@@ -1,0 +1,24 @@
+body{
+	background-color: #eafadd; 
+}
+h1{
+	color: #0000cc;
+	font-family: tahoma;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;;
+}
+p{
+	color: #555555;
+	font-family: verdana;
+	text-align: justify;
+}
+.parrafo{
+font-family: comic sans ms;
+font-size: 18px;
+background-color: #ffffcc;
+border-width: 1px;
+border-style: dotted;
+border-color: #ffaa00;
+padding: 50px;
+}

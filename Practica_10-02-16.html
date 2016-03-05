@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>Calculadora</title>
+</head>
+<body>
+	<script language="javascript">
+var inputstring=" "
+function updatestring(value)
+{
+inputstring += value;
+document.calculator.input.value=inputstring;
+}
+</script>
+<form action="pagina.html" method="post">
+	<input type="button" name="boton7" value="7" onclick="updatestring('7')">
+	<input type="button" name="boton8" value="8" onclick="updatestring('8')">
+	<input type="button" name="boton9" value="9" onclick="updatestring('9')">
+	<input type="button" name="boton/" value="/" onclick="updatestring('/')">
+	<br>
+	<input type="button" name="boton4" value="4" onclick="updatestring('4')">
+	<input type="button" name="boton5" value="5" onclick="updatestring('5')">
+	<input type="button" name="boton6" value="6" onclick="updatestring('6')">
+	<input type="button" name="boton*" value="*" onclick="updatestring('*')">
+	<br>
+	<input type="button" name="boton1" value="1" onclick="updatestring('1')">
+	<input type="button" name="boton2" value="2" onclick="updatestring('2')">
+	<input type="button" name="boton3" value="3" onclick="updatestring('3')">
+	<input type="button" name="boton+" value="+" onclick="updatestring('+')">
+	<br>
+	<input type="button" name="boton0" value="0" onclick="updatestring('0')">
+	<input type="button" name="boton." value="." onclick="updatestring('.')">
+	<input type="button" name="boton-" value="-" onclick="updatestring('-')">
+	<input type="button" name="boton=" value="=" onclick="updatestring('=')">
+	<br>
+	<input type="button" name="botonClear" value="input.value= '';inputstring='">
+	<input type="button" value="=" onclick="input.value=eval(inputstring);">
+</form>
+
+</br>
+	<form action="pagina.html" method="post" enctype="multiplar/form-data">
+	<label for="nombre">Ingrese nombre:</label>
+	<input type="text" name="nombre" size="30" id="nombre"><br>
+	<label for="foto">Seleccione foto:</label>
+	<input type="file" name="foto"><br>
+	<br>
+	<input type="submit" value="Enviar"><br>
+	</form>
+	<br>
+	
+	</br>
+	<h1>Hiden</h1>
+	<form action="/registradatos" method="post">
+	<label for="hora">Ingrese nombre:</label>
+	<input type="hidden" value="10.20" id="hora"><br>
+	<input type="text" name="nombre" size="30"><br>
+	<input type="submit" value="Enviar"><br>
+	</form>
+	<br>
+	
+	</br>
+	<form action="/registradatos" method="post">
+	<label for="hora">Ingrese nombre:</label>
+	<input type="hidden" value="10.20" id="hora"><br>
+	<input type="text" name="nombre" size="30"><br>
+	<input type="submit" value="Enviar"><br>
+	</form>
+	<br>
+	
+	</br>
+
+<form action=pagina.html="post">
+	<fieldset>
+	<legend>dato personal </legend>
+	apellido y nombre:
+	<input type="text" name="nombre" size="30"><br>
+	identificacion:
+	<input type="text" name="dni" size="8"><br>
+	fecha de nacimiento:
+	<input type="text" name="fechanacimiento" size="12"><br>
+	direccion:
+	<input type="text" name="direccionpersonal" size="30"><br>
+	</fieldset>
+</form>
+
+
+
+	<html>
+	<head>
+		<title>Prueba de Formulario</title>
+	</head>
+	<body>
+		<form action="pagina25.html" method="post">
+		Apellido y Nombre:
+		<input type="text" name="nombre" size="30"><br>
+		Es mayor de edad?:<br>
+		<input type="radio" name="radio1" checked value="si">Si<br>
+		<input type="radio" name="radio1" checked value="no">No<br>
+		Telefono
+		<input type="text" name="telefono" value="453-" size="15"><br>
+		<textarea name="Comentarios" rows="5" cols="40">Ingrese aqui sus comentarios:</textarea>
+		<br>
+		<input type="submit" value="Enviar">
+		</form>
+	</body>
+
+
+	<form action="pagina26.html" method="post">
+		<input type="text" name="text1" size="5" tabindex="1">
+		<input type="text" name="text2" size="5" tabindex="4">
+		<input type="text" name="text3" size="5" tabindex="7">
+		<br>
+		<input type="text" name="text4" size="5" tabindex="2">
+		<input type="text" name="text5" size="5" tabindex="5">
+		<input type="text" name="text6" size="5" tabindex="8">
+		<br>
+		<input type="text" name="text7" size="5" tabindex="3">
+		<input type="text" name="text8" size="5" tabindex="6">
+		<input type="text" name="text9" size="5" tabindex="9">
+		<br>
+		<input type="submit" value="enviar" tabindex="10">
+	</form>
+
+	<form action="pagina27" method="post">
+		<h3>Deshabilitar controles</h3><br>
+		Seleccione la opcion donde desea ingresar: 
+		<br>
+		<input type="radio" name="seccion" value="1" disabled>niños<br>
+		<input type="radio" name="seccion" value="2">Adolecentes<br>
+		<input type="radio" name="seccion" value="3" disabled>Mayores<br>
+		<input type="submit" value="Enviar">
+	</form>
+	<form action="mailto:jmadridith.mx" method="post" enctype="text/plain">
+			Ingrese su nombre:
+			<input type="text" name="nombre" size="20">
+			<br>
+			Ingrese su direccion: 
+			<input type="text" name="direccion" size="30">
+			<br>
+			Informe del problema: 
+			<br>
+			<textarea rows="5" cols="40" name="Problema"></textarea>
+			<br>
+			<input type="submit" value="Enviar"> 
+		</form>
+
+		<form action="pagina30.html" methods="post">
+		
+		<h3>FRAMES</h3>
+		<frameset cols="20%,80%">
+			<frame src="pagina31a.html">
+			<frame src="pagina31b.html">
+			<noframes>
+			<p>El navegador no soporta frames</p>
+			</noframes>
+		</frameset>
+
+		
+
+</body>
+<html>

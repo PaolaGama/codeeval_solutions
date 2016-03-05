@@ -1,0 +1,10 @@
+body{
+    background-image: url("logo_ith.jpg");
+    background-repeat: repeat;
+}
+h1{
+	font-size: 100px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}

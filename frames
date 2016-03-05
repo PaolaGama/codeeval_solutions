@@ -1,0 +1,9 @@
+<h3>FRAMES</h3>
+		<frameset cols="20%,80%">
+			<frame src="pagina31a.html">
+			<frame src="pagina31b.html"></frame>
+			<noframes>
+			<p>El navegador no soporta frames</p>
+			</noframes>
+		</frame>
+		</frameset>

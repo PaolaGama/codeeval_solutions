@@ -1,0 +1,9 @@
+ul.cuadrado{
+	list-style-type: square;
+}
+ul.letrasminusculas{
+	list-style-type: lower-alpha;
+}
+ul.romanomayuscula{
+	list-style-type: upper-roman;
+}
